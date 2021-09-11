@@ -26,4 +26,7 @@ public class User {
 	@CreationTimestamp
 	private Timestamp createDate;
 	
+	//일반 사용자인지 oath로그인 사용자인지 구분
+	private String provider;  //ex) google
+	private String providerId; //ex) sub
 }
